@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24765" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24743"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -15,38 +15,38 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="interactive" translatesAutoresizingMaskIntoConstraints="NO" id="eQ0-Mv-Nfj">
-                    <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                    <rect key="frame" x="0.0" y="118" width="393" height="666"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WZ3-z2-9EH">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="627.5"/>
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="666"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="grp-Lg-001" userLabel="Form Group">
-                                    <rect key="frame" x="32" y="40" width="256" height="547.5"/>
+                                    <rect key="frame" x="32" y="59.333333333333314" width="329" height="547.33333333333348"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RB1-1k-0c1">
-                                            <rect key="frame" x="68" y="0.0" width="120" height="100"/>
+                                            <rect key="frame" x="104.66666666666666" y="0.0" width="120" height="100"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="120" id="a01-Lgn-003"/>
                                                 <constraint firstAttribute="height" constant="100" id="a01-Lgn-004"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Iniciar sesión" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ec1-72-cRa">
-                                            <rect key="frame" x="0.0" y="124" width="256" height="33.5"/>
+                                            <rect key="frame" x="0.0" y="123.99999999999999" width="329" height="33.666666666666671"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingresa tus datos para continuar" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Q9-Lm-mcc">
-                                            <rect key="frame" x="0.0" y="165.5" width="256" height="18"/>
+                                            <rect key="frame" x="0.0" y="165.66666666666666" width="329" height="18"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <color key="textColor" systemColor="secondaryLabelColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Correo o usuario" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="DVb-qz-k7m">
-                                            <rect key="frame" x="0.0" y="219.5" width="256" height="52"/>
+                                            <rect key="frame" x="0.0" y="219.66666666666666" width="329" height="51.999999999999972"/>
                                             <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="52" id="a04-Lgn-004"/>
@@ -55,7 +55,7 @@
                                             <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" returnKeyType="next" textContentType="username"/>
                                         </textField>
                                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dtj-zH-29p">
-                                            <rect key="frame" x="0.0" y="287.5" width="256" height="52"/>
+                                            <rect key="frame" x="0.0" y="287.66666666666663" width="329" height="52"/>
                                             <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="52" id="a05-Lgn-004"/>
@@ -64,7 +64,7 @@
                                             <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES" textContentType="password"/>
                                         </textField>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p5b-oB-vSh">
-                                            <rect key="frame" x="176" y="295.5" width="72" height="36"/>
+                                            <rect key="frame" x="249" y="295.66666666666663" width="72" height="36"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="72" id="a06-Lgn-003"/>
                                                 <constraint firstAttribute="height" constant="36" id="a06-Lgn-004"/>
@@ -74,23 +74,23 @@
                                             </buttonConfiguration>
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="Recordarme" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mpq-po-ged">
-                                            <rect key="frame" x="0.0" y="361.5" width="84" height="18"/>
+                                            <rect key="frame" x="0.0" y="361.66666666666663" width="83.666666666666671" height="18"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <color key="textColor" systemColor="secondaryLabelColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ag4-e4-rqg">
-                                            <rect key="frame" x="195" y="356.5" width="63" height="28"/>
+                                            <rect key="frame" x="268" y="356.66666666666663" width="63" height="28"/>
                                             <color key="onTintColor" systemColor="labelColor"/>
                                         </switch>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEj-bn-VD6">
-                                            <rect key="frame" x="35" y="392.5" width="221" height="35"/>
+                                            <rect key="frame" x="108" y="392.66666666666663" width="221" height="35"/>
                                             <buttonConfiguration key="configuration" style="plain" title="¿Olvidaste tu contraseña?">
                                                 <color key="baseForegroundColor" systemColor="labelColor"/>
                                             </buttonConfiguration>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hHx-7E-qaw">
-                                            <rect key="frame" x="0.0" y="455.5" width="256" height="52"/>
+                                            <rect key="frame" x="0.0" y="455.66666666666663" width="329" height="52"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="52" id="a10-Lgn-004"/>
                                             </constraints>
@@ -101,7 +101,7 @@
                                             </buttonConfiguration>
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Acceso seguro" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cr2-CK-N0W">
-                                            <rect key="frame" x="0.0" y="531.5" width="256" height="16"/>
+                                            <rect key="frame" x="0.0" y="531.66666666666663" width="329" height="15.666666666666629"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                             <color key="textColor" systemColor="tertiaryLabelColor"/>
                                             <nil key="highlightedColor"/>
