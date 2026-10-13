@@ -1,1 +1,6 @@
-404: Not Found.DS_Store
+.DS_Store
+xcuserdata/
+DerivedData/
+build/
+*.xcuserstate
+*.swp
