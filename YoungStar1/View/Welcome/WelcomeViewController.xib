@@ -16,8 +16,41 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZE0-CJ-5df">
+                    <rect key="frame" x="32" y="636" width="329" height="52"/>
+                    <state key="normal" title="Iniciar sesión"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Iniciar sesión">
+                        <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="baseBackgroundColor" red="0.039215686270000001" green="0.039215686270000001" blue="0.039215686270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="loginButtonTapped:" destination="-1" eventType="touchUpInside" id="9bu-6J-WfM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ejX-pE-W7g">
+                    <rect key="frame" x="32" y="700" width="329" height="52"/>
+                    <state key="normal" title="Crear cuenta"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Crear cuenta">
+                        <color key="baseForegroundColor" red="0.039215686270000001" green="0.039215686270000001" blue="0.039215686270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="registerButtonTapped:" destination="-1" eventType="touchUpInside" id="OQl-LD-a29"/>
+                    </connections>
+                </button>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" red="0.51596565865034139" green="0.46820988309848083" blue="0.86078912019729614" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="ejX-pE-W7g" secondAttribute="bottom" constant="32" id="wlm-bottom"/>
+                <constraint firstItem="ejX-pE-W7g" firstAttribute="top" secondItem="ZE0-CJ-5df" secondAttribute="bottom" constant="12" id="wlm-buttons-spacing"/>
+                <constraint firstItem="ejX-pE-W7g" firstAttribute="height" constant="52" id="wlm-create-height"/>
+                <constraint firstItem="ejX-pE-W7g" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="32" id="wlm-create-leading"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ejX-pE-W7g" secondAttribute="trailing" constant="32" id="wlm-create-trailing"/>
+                <constraint firstItem="ZE0-CJ-5df" firstAttribute="height" constant="52" id="wlm-login-height"/>
+                <constraint firstItem="ZE0-CJ-5df" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="32" id="wlm-login-leading"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ZE0-CJ-5df" secondAttribute="trailing" constant="32" id="wlm-login-trailing"/>
+            </constraints>
             <point key="canvasLocation" x="108" y="137"/>
         </view>
     </objects>

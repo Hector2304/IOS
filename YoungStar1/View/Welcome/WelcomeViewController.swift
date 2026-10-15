@@ -8,12 +8,30 @@
 import UIKit
 
 class WelcomeViewController: UIViewController {
+    
+    private let presenter:WelcomePresenter
+    
+    init(presenter: WelcomePresenter) {
+            self.presenter = presenter
+            super.init(nibName: "WelcomeViewController", bundle: nil)
+        }
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    required init?(coder: NSCoder) {
+            fatalError("init(coder:) has not been implemented")
+        }
 
-        // Do any additional setup after loading the view.
+        override func viewDidLoad() {
+            super.viewDidLoad()
+        }
+
+        @IBAction private func loginButtonTapped(_ sender: Any) {
+            presenter.didTapLogin()
+        }
+    
+    @IBAction private func registerButtonTapped(_ sender: Any) {
+        presenter.didTapRegister()
     }
+    
 
 
     /*
