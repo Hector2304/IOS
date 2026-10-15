@@ -17,4 +17,8 @@ final class WelcomePresenter {
     func didTapLogin() {
         onShowLogin()
     }
+    
+    func didTapRegister() {
+        
+    }
 }

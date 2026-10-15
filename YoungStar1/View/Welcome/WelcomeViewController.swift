@@ -28,6 +28,10 @@ class WelcomeViewController: UIViewController {
             presenter.didTapLogin()
         }
     
+    @IBAction private func registerButtonTapped(_ sender: Any) {
+        presenter.didTapRegister()
+    }
+    
 
 
     /*
