@@ -88,9 +88,9 @@ final class AppDIContainer: ViewControllerFactory {
         onLoginSuccess: @escaping () -> Void
     ) -> UIViewController {
         let presenter = LoginPresenter(
-            onLoginSuccess: onLoginSuccess
+            onLoginSuccess: onLoginSuccess,
+            validator: LoginValidator()
         )
-
         return LoginViewController(presenter: presenter)
     }
 
